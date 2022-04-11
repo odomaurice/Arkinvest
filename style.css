@@ -1,0 +1,872 @@
+    *{box-sizing: border-box;}
+
+    body{
+        text-align: center;
+        background: url(..);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        font-family: 'Merriweather';
+        margin: 0;
+
+    }
+
+    @media (min-width: 991px) {
+        body{
+            padding: 0.5rem;
+            orientation: portrait;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    @media (max-width: 991px) {
+        body{
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            font-size: 20px;
+         }
+     }
+        
+    
+
+ @media (max-width:1195px) {
+     body{
+         margin: 0;
+         padding: 0;
+     }
+     
+ }
+
+    /*NAVIGATION SECTION*/
+
+    .nav-div{
+        display: flex;
+        padding: 0.5rem 0;
+        justify-content: space-between;
+        background-color: #000080;
+        max-height: auto;
+        height: 10%;
+        margin-bottom: 10px;
+        
+        color: #fff;
+        position: relative;
+        z-index: 1;
+        
+    }
+
+    @media (max-width:1636) {
+        .nav-div{
+            display: inline-block;
+            
+        }
+    }
+
+    .nav-logo{
+        padding-left: 1rem;
+        color: #ffa500;
+
+
+    }
+
+    ul{
+        list-style: none;
+        text-decoration: none;
+        text-transform: none;
+        
+    }
+
+    li{
+        display: inline-block;
+        margin: 0 1rem;
+        padding-right: 1rem;
+        color: #fff;
+        
+        
+
+        
+    }
+
+
+    @media (max-width:1300px) {
+        li{
+            display: block;
+            padding: 1rem;
+            height: 2rem;    
+            
+        }
+    }
+
+    @media (max-width:990px){
+        .nav-div{
+            display: flex;
+            flex-direction: column;
+            font-size: 20px;
+            
+        }
+    }
+    @media (max-width:990px){
+        .li{
+            display: flex;
+            flex-direction: row;
+            font-size: 20px;
+            margin: 1rem;
+        }
+    }
+
+    @media (max-width:518px){
+        .li{
+             line-height: 2;
+        }
+    }
+
+
+    .log:hover{
+        border: 2px solid #ffa500;
+        text-decoration: none;
+        text-transform: none;
+    }
+
+    @media (max-width:990px){
+        .log{
+            display: inline-block;
+            font-size: 20px;
+            margin: 1rem;
+        
+        }
+    }
+
+    @media (max-width:990px){
+        .sign{
+            display: inline-block;
+            margin: 1rem;
+            font-size: 20px;
+        }
+    }
+
+
+
+    
+
+
+
+
+    /*CAROUSEL SECTION*/
+    
+
+
+
+    
+    .car-top{
+        background-image: url("images/sky.jpg");
+                      opacity: 1; 
+                      text-align: justify; 
+                      background-repeat: no-repeat; 
+                      background-size: 100%; 
+                      height:800px; 
+                      padding: 1rem;
+                      color: #fff; 
+                      font-family: 'Poppins'; 
+                      margin-top: 0;
+                      font-size: 20px;
+                    
+            
+            
+        
+        }
+
+        .car-middle{
+            background-image: url("images/18-188243_business-wallpaper-group-data-src-full-656727-consulting.jpg");  
+            background-repeat: no-repeat; 
+            text-align: justify; 
+             padding: 1rem; 
+             background-size: 100%; 
+             color: #fff; 
+             height: 800px; 
+             font-family: 'Poppins';
+        }
+        
+        
+        .car-bottom{
+            background-image: url("images/graphicstock-side-view-of-business-woman-talking-at-phone-and-sitting-by-the-table-with-laptop-in-office_BLz-DFvmu3x_SB_PM.jpg"); 
+            text-align: justify; 
+            font-family: 'Poppins'; 
+            background-size: 100%; 
+            background-repeat: no-repeat; 
+            height: 800px; 
+            line-height: 3;
+             padding-top:100px ; 
+             padding-left: 20px;
+        }
+
+        .car-h5{
+            color:white; 
+            padding-top: 10px;
+        }
+
+        .car-h3{
+            color: black;
+        }
+
+
+        @media (max-width: 1200px) {
+            .car-top{
+                height: 500px;
+            }
+        }
+
+        @media (max-width: 756px) {
+            .car-top{
+                height: 400px;
+            }
+        }
+
+
+        @media (max-width: 1200px) {
+            .car-middle{
+                height: 500px;
+            }
+        }
+
+        @media (max-width: 756px) {
+            .car-middle{
+                height: 400px;
+            }
+        }
+
+        
+        @media (max-width: 1200px) {
+            .car-bottom{
+                height: 500px;
+            }
+        }
+        @media (max-width: 756px) {
+            .car-bottom{
+                height: 400px;
+            }
+        }
+
+
+
+    
+
+    /*1ST FLEX*/
+
+    .container1{
+        display: flex;
+        justify-content: space-between;
+        color: #ffffff;
+        font-family: 'Merriweather';
+    }
+
+    .div1{
+        text-align: center;
+        color: #ffffff;
+        background-color:#0000ff;
+        padding: 1rem;
+        max-height: 200vh;
+    }
+
+    .div1-img,.div2-img,.div3-img{
+        max-width: 25%;
+    }
+
+    .div2{
+        text-align: center;
+        color: #ffffff;
+        background-color:#000080;
+        margin: 2px;
+        padding: 1rem;
+    }
+
+    .div3{
+        text-align: center;
+        color: #ffffff;
+        background-color: #0000ff;
+        margin: 2px;
+        padding: 1rem;
+    }
+
+    @media (max-width:1151px){
+          .div1{
+            padding: 0.3rem;
+
+          }
+    }
+
+       @media (max-width: 1195px) {
+           .container1{
+               margin: 0;
+           }
+       }
+
+       @media (max-width:990px){
+        .container1{
+            display: flex;
+            flex-direction: column;
+            font-size: 20px;
+        }
+    }
+    
+
+
+    /*SECTION 1 HEADING*/
+    .sechead{
+        text-align: center; 
+        margin: 50px;
+    }
+
+    /*2ND FLEX*/
+    .container2{
+        display: flex;
+        justify-content: space-between;
+        color: #000000;
+        height: auto;
+        /*grid-gap: 50px;*/
+        grid-template-rows: auto auto auto;
+        font-family: 'Merriweather';
+        line-height: 2;
+        padding: 1rem;
+        
+
+    }
+
+    .div4{
+        text-align: center;
+        color: #000000;
+        background-color: #ffffff;
+        margin: 2px;
+        
+
+
+    }
+
+    .div5{
+        text-align: center;
+        color: #000000;
+        background-color:#ffffff;
+        margin: 2px;
+        
+        
+
+    }
+    .div6{
+        text-align: center;
+        color:#000000;
+        background-color:#ffffff;
+        margin: 2px;
+        
+
+    }
+
+    @media (max-width:951px){
+        .container2{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    @media (max-width:990px){
+        .container2{
+            display: flex;
+            flex-direction: column;
+            font-size: 20px;
+        }
+    }
+
+
+
+    /*COIN-LIB*/
+
+    .coin-lib1{
+        width: 100%; 
+        background-color: #FFFFFF; 
+        overflow:hidden; 
+        box-sizing: border-box; 
+        text-align: right; 
+        line-height:14px; 
+        font-size: 12px; 
+        box-sizing:content-box; 
+        font-feature-settings: normal; 
+        text-size-adjust: 100%; 
+        padding:1px;
+        padding: 0px; 
+        margin: 0px;
+    }
+
+
+
+
+    /*COIN-LIB END*/
+
+
+    img{
+        max-width: 300px;
+        
+    }
+
+    /*TESTIMONIAL HEADER*/
+    .test-head{
+        margin-top: 200px; 
+        background-color: #000080; 
+        height: 300px; 
+        padding-top: 50px;
+    }
+    .test-cap1{
+        font-family: 'Merriweather'; 
+        font-size: 50px; 
+        font-weight: bold; 
+        text-align: center; 
+        color: #ffa500; 
+        line-height: 2;
+        text-align: center;
+    }
+    .test-cap2{
+        font-family: 'Poppins'; 
+        font-size: 20px; 
+        font-weight: bold; 
+        color: #ffffff;
+        text-align: center;
+    }
+
+    /*TESTIMONIALS*/
+    .container6{
+        width: 50%;
+        margin: 100px auto 100px auto;
+        text-align: left;
+        line-height: 2;
+        text-align: center; 
+        font-family: 'Merriweather'; 
+        font-weight: bold; 
+        line-height: 3;
+    }
+
+    .test1{
+        width: 25%;
+        float: left;
+        margin-right: 30px;
+
+    }
+    .test2{
+        width: 25%;
+        float: right;
+        margin-left: 30px;
+
+    }
+    .test3{
+        width: 25%;
+        float: left;
+        margin-right: 30px;
+    }
+    .test4{
+        width: 25%;
+        float: right;
+        margin-left: 30px;  
+    }
+
+    @media (max-width:990px){
+        .container6{
+            display: flex;
+            flex-direction: column;
+            font-size: 20px;
+            line-height: 1;
+        }
+    }
+
+    /*CONTACT US SECTION*/
+    .contact-head{
+        text-align: center; 
+        height: 200px;
+         margin-top: 20px; 
+         padding-top: 50px;
+    }
+    .contact-img{
+        max-width: 20%;
+        
+    }
+    .contact-body{
+        padding: 2rem;
+        text-align: center;
+         background-color: #000080; 
+         color:#ffffff; 
+        
+    }
+    .contact-footer{
+        display: flex;
+        background-color: #0000ff; 
+        padding: 0.5rem 1rem;
+        justify-content: space-between;
+     
+        color: #ffffff; 
+    
+    }
+
+    @media (max-width:990px){
+        .contact-head{
+            display: flex;
+            flex-direction: column;
+            font-size: 20px;
+        }
+    }
+
+    @media (max-width:990px){
+        .contact-body{
+            display: flex;
+            flex-direction: column;
+            font-size: 20px;
+        }
+    }@media (max-width:990px){
+        .contact-footer{
+            font-size: 20px;
+        }
+    }
+
+
+    /*REGISTER/LOGIN*/
+    .rls{
+        text-align: center; 
+        line-height: 3; 
+        font-family: 'Merriweather'; 
+        margin: 1rem 0.5rem 0;
+        padding: 1rem;
+    }
+    .test{
+        margin: 50px;
+        width: 30px;
+    }
+
+    @media (max-width:990px){
+        .rls{
+            font-size: 20px;
+        }
+    }
+
+
+    /*MORE INFO*/
+    .cap1,
+    .cap2,
+    .cap3,
+    .cap4 {
+        text-align: center; 
+        margin: 0.5rem; 
+        font-family: 'Merriweather'; 
+        line-height: 2;
+        padding: 2rem;
+    }
+
+    .cap-img{
+        width: 500px;
+    }
+
+    @media (max-width:990px){
+        .cap1{
+            display: flex;
+            flex-direction: column;
+            
+            font-size: 20px;
+        }
+    }
+
+    @media (max-width:990px){
+        .cap-img{
+            max-width: 100%;
+            
+        }
+    }
+
+    @media (max-width:990px){
+        .cap2{
+            display: flex;
+            flex-direction: column;
+            
+            font-size: 20px;
+        }
+    }
+
+    @media (max-width:990px){
+        .cap3{
+            display: flex;
+            flex-direction: column;
+            
+            font-size: 20px;
+        }
+    }
+
+    @media (max-width:990px){
+        .cap4{
+            display: flex;
+            flex-direction: column;
+            
+            font-size: 20px;
+        }
+    }
+
+    
+
+    
+
+    /*COMPANY TEAM*/
+    .team-div{
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center; 
+        font-family: 'Merriweather';
+        padding: 1rem;
+        color: #800080;
+    }
+
+    .team-intro{
+        text-align: center;
+    }
+    .team-div body{
+        color: #800080;
+    }
+
+    .team-img{
+        width: 40%;
+    }
+
+    @media (max-width:990px){
+        .team-intro{
+        
+            
+            font-size: 20px;
+        }
+    }
+
+    /*COMPANY PARTNERS*/
+    .partner-div{
+         font-family: 'Merriweather'; 
+         text-align: center; 
+         background-color: #f5f5f5 ;
+    }
+    .partner-head{
+         
+        text-align: center;
+
+    }
+    .partner-img{
+        max-width: 20%;
+
+    }
+
+    /*FORM SECTION*/
+    .form-div{
+        text-align: center; 
+        font-family: 'Merriweather'; 
+        margin: 1rem;
+    }
+    .form-link{
+        color: #0000ff; 
+        text-decoration: none;
+    }
+
+    @media (max-width:990px){
+        .form-div{
+            
+            font-size: 10px;
+        }
+    }
+
+    /*FOOTER SECTION*/
+    .footer-div{
+        text-align: center;
+        margin: 0 5px;
+        background: #000080;
+        color: #ffffff;
+        
+    }
+    .links{
+        
+        padding: 1rem;
+        margin: 0 1rem ;
+        
+        width: 100%;
+        position: relative;
+        text-decoration: none;
+    }
+    .copy{
+        float: left;
+        padding-left: 0.5rem;
+    }
+
+    
+
+    @media (max-width:990px){
+        .links{
+            display: flex;
+            flex-direction: column;
+            
+            font-size: 20px;
+        }
+    }
+
+    
+
+    /*ABOUT-US PAGE*/
+
+    /*BG-IMG SECTION*/
+
+    
+
+    /*ABOUT SECTION*/
+
+
+    .about-nav{
+        background-color: #000080; 
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        color: #fff;
+    }
+
+
+
+    .about-logo{
+        font-family: 'Merriweather'; 
+        font-weight: bold; 
+        font-size: 30px; 
+        color: #ffa500;
+    }
+
+    .nav-div a{
+        color: #fff;
+    }
+
+
+
+    .bg-intro{
+        text-align: center;
+        margin: 2rem ;
+        color: #000000; 
+        font-family: 'Merriweather'; 
+
+    }
+    .about-img {
+        width: 300px;
+    }
+
+    
+      .invest-div{
+        color: #000000; 
+        font-family: 'Merriweather';
+
+    }
+    .invest-img
+    {
+          width: 100px;
+    }
+    .invest-sub{
+        width: 60%;
+    }
+
+    
+    
+    .withdraw-div{
+         text-align: center;
+
+    }
+    
+    .users-div{
+        width: 60%;
+
+    }
+
+    .btn-primary-link{
+        color: #FFFFFF; 
+        text-decoration: none;
+
+    }
+    
+    /*FAQ SECTION*/
+    .faq-div{
+        color: #000000; 
+        font-family: 'Merriweather'; 
+        margin-top: 50px; 
+        margin-bottom: 50px;
+
+    }
+    .container7{
+        background-color: #0000ff;  
+        margin-top: 0; 
+        height: auto; 
+        display: grid;  
+        color: #ffffff; 
+        padding-left: 50px ;  
+        padding-top: 20px;
+
+    }
+    .test{
+        width: 20px;
+    }
+
+    /*DISCLAIMER SECTION*/
+    .disclaimer-div{
+        font-family: 'Poppins'; 
+        text-align: center;
+         margin: 2rem;
+          background-color: #f5f5f5; 
+          
+
+    }
+    .disclaimer-img{
+        padding-top: 50px; 
+        padding-bottom: 50px;
+        width: 400px; 
+
+    }
+
+    /*ABOUT-US FOOTER SECTION*/
+    .social-div{
+        text-align: center; 
+        background-color: #000080;
+        height: auto; 
+        
+        
+
+    }
+
+
+
+    @media (max-width:989px){
+        .about-footer{
+            display: flex;
+            padding: 20rem 2rem 2rem;
+            justify-content: center;
+
+    }
+    }
+
+    
+
+
+
+
+    
+    .container3{
+        display: grid;
+        grid-template-columns: auto;
+        padding-top: 20px;
+
+        height: 200px;
+        background-color:white;
+        
+    }
+    .span1{
+        text-align: center;
+        font-weight: bolder;
+        font-size: 30px;
+    }
+    
+    .container4{
+        text-align: center;
+    }
+
+    
+
+    
+    
+
+    
+    
+    

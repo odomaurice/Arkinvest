@@ -1,0 +1,327 @@
+
+*{box-sizing: border-box;}
+
+body{
+    text-align: center;
+    background: url(..);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Merriweather';
+    margin: 0;
+
+}
+
+@media (min-width: 991px) {
+    body{
+        padding: 0.5rem;
+        orientation: portrait;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 991px) {
+    body{
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+     }
+ }
+    
+
+
+@media (max-width:1195px) {
+ body{
+     margin: 0;
+     padding: 0;
+ }
+ 
+}
+
+/*NAVIGATION SECTION*/
+
+.nav-div{
+    display: flex;
+    padding: 0.5rem 0;
+    justify-content: space-between;
+    background-color: #000080;
+    max-height: auto;
+    height: 10%;
+    margin-bottom: 10px;
+    
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    
+}
+
+@media (max-width:1636) {
+    .nav-div{
+        display: inline-block;
+        
+    }
+}
+
+.nav-logo{
+    padding-left: 1rem;
+    color: #ffa500;
+
+
+}
+
+
+ul{
+    list-style: none;
+    text-decoration: none;
+    text-transform: none;
+    
+}
+
+li{
+    display: inline-block;
+    margin: 0 1rem;
+    padding-right: 1rem;
+    color: #fff;
+}
+
+
+
+
+    
+
+
+@media (max-width:990px){
+    .log{
+        display: inline-block;
+        font-size: 20px;
+        margin: 1rem;
+    
+    }
+}
+
+@media (max-width:990px){
+    .sign{
+        display: inline-block;
+        margin: 1rem;
+        font-size: 20px;
+    }
+}
+
+@media (max-width:1300px) {
+    li{
+        display: block;
+        padding: 1rem;
+        height: 2rem;    
+        
+    }
+}
+
+@media (max-width:990px){
+    .nav-div{
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        
+    }
+}
+@media (max-width:990px){
+    .li{
+        display: flex;
+        flex-direction: row;
+        font-size: 20px;
+        margin: 1rem;
+    }
+}
+
+@media (max-width:518px){
+    .li{
+         line-height: 2;
+    }
+}
+
+@media (max-width:990px){
+    .log{
+        display: inline-block;
+        font-size: 20px;
+        margin: 1rem;
+    
+    }
+}
+
+@media (max-width:990px){
+    .sign{
+        display: inline-block;
+        margin: 1rem;
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about-nav{
+    background-color: #000080; 
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: #fff;
+}
+
+
+
+.about-logo{
+    font-family: 'Merriweather'; 
+    font-weight: bold; 
+    font-size: 30px; 
+    color: #ffa500;
+}
+
+.nav-div a{
+    color: #fff;
+}
+
+
+
+.bg-intro{
+    text-align: center;
+    margin: 2rem ;
+    color: #000000; 
+    font-family: 'Merriweather'; 
+
+}
+.about-img {
+    width: 300px;
+}
+
+
+  .invest-div{
+    color: #000000; 
+    font-family: 'Merriweather';
+
+}
+.invest-img
+{
+      width: 100px;
+}
+.invest-sub{
+    width: 60%;
+}
+
+
+
+.withdraw-div{
+     text-align: center;
+
+}
+
+.users-div{
+    width: 60%;
+
+}
+
+.btn-primary-link{
+    color: #FFFFFF; 
+    text-decoration: none;
+
+}
+
+/*FAQ SECTION*/
+.faq-div{
+    color: #000000; 
+    font-family: 'Merriweather'; 
+    margin-top: 50px; 
+    margin-bottom: 50px;
+
+}
+.container7{
+    background-color: #0000ff;  
+    margin-top: 0; 
+    height: auto; 
+    display: grid;  
+    color: #ffffff; 
+    padding-left: 50px ;  
+    padding-top: 20px;
+
+}
+.test{
+    width: 20px;
+}
+
+/*DISCLAIMER SECTION*/
+.disclaimer-div{
+    font-family: 'Poppins'; 
+    text-align: center;
+     margin: 1rem 2rem;
+      background-color: #f5f5f5; 
+      
+
+}
+.disclaimer-img{
+    padding-top: 50px; 
+    padding-bottom: 50px;
+    width: 200px; 
+
+}
+
+/*ABOUT-US FOOTER SECTION*/
+.social-div{
+    text-align: center; 
+    background-color: #000080;
+    height: auto; 
+    
+    
+
+}
+
+
+
+@media (max-width:989px){
+    .about-footer{
+        display: flex;
+        justify-content: center;
+
+}
+}
+
+.invest-head{
+    color: #000000;
+    text-align: center;
+    font-family: 'Merriweather';
+}
+
+@media (min-width:576px) and (max-width:858px) {
+    .invest-head{
+        margin: 1.5rem 0;
+        
+        
+    }
+}
+
+@media (min-width:576px) and (max-width:858px) {
+    .btn-primary{
+        margin: 2rem 0;
+        
+        
+    }
+}
+
+
